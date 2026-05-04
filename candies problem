@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        int N = 10;
+        int minimum = 5;
+        int balance = N;
+        Scanner sc = new Scanner(System.in);
+        while (true) 
+            System.out.println("Enter candy demand:");
+            int demand = sc.nextInt();
+            if (demand > balance) {
+                System.out.println("INVALID INPUT");
+            }
+            else {
+           System.out.println("Number of Candies Sold: " + demand);
+           balance = balance - demand;
+            if (balance <= minimum) {
+              balance = N;
+                  System.out.println("Refill done");
+                }
+                System.out.println("Balance Candies available: " + balance);
+            }
+        }
+    }
+}
