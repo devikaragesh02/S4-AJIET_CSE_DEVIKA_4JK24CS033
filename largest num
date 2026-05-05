@@ -10,6 +10,6 @@ class Main {
                     largest=arr[i];
             }
         }
-        System.out.println("the largets number is"+largest);
+        System.out.println("the largest number is"+largest);
     }
 }
