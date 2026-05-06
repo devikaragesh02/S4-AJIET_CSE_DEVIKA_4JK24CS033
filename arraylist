@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+public class Main
+{
+	public static void main(String[] args) {
+		ArrayList<String>list=new ArrayList<>();
+		list.add("java");
+		list.add("python");
+		list.add("java");
+		System.out.println(list);
+		System.out.println(list.get(0));
+		list.add(0,"esth");
+	    System.out.println(list);
+	    list.set(1,"ada");
+	    System.out.println(list);
+	    list.remove(2);
+	    System.out.println(list);
+	    list.clear();
+	    System.out.println(list);
+	    list.size();
+	    System.out.println(list);
+	    
+	}
+}
