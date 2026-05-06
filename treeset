@@ -1,0 +1,18 @@
+import java.util.TreeSet;
+public class Main
+{
+	public static void main(String[] args) {
+		 TreeSet<Integer>ai=new TreeSet();
+	    
+	    ai.add(10);
+        ai.add(20);
+        ai.add(2);
+        System.out.println(ai);
+        System.out.println(ai.contains(20));
+        ai.remove(1);
+        System.out.println(ai);
+        System.out.println(ai.size());
+        ai.clear();
+        System.out.println(ai);
+	}
+}
